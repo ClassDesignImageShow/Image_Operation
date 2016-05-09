@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+        <ivo_chuanzhi.test_scan_photo.view.ZoomImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/id_ZoomImageView"
+            android:scaleType="matrix"
+            android:src="@mipmap/ic_launcher"
+            android:background="#000000"
+            />
+
+
+</RelativeLayout>

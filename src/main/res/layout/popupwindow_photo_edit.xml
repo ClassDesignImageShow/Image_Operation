@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#644d4949"
+    >
+
+    <!-- 剪辑 -->
+    <LinearLayout
+        android:id="@+id/id_photoCut"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:src="@drawable/ic_menu_cut"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:text="剪辑"
+            android:textColor="#e9edea"
+            />
+
+    </LinearLayout>
+
+
+    <!-- 滤镜 -->
+    <LinearLayout
+        android:id="@+id/id_photoPass"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:src="@drawable/ic_menu_compass"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:text="滤镜"
+            android:textColor="#e9edea"
+            />
+
+    </LinearLayout>
+
+
+    <!-- 色彩 -->
+    <LinearLayout
+        android:id="@+id/id_photoColor"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:src="@drawable/pointer_spot_anchor"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:text="色彩"
+            android:textColor="#e9edea"
+            />
+
+    </LinearLayout>
+
+
+
+    <!-- 马赛克 -->
+    <LinearLayout
+        android:id="@+id/id_photoMosaic"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:src="@drawable/ic_menu_view"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:text="马赛克"
+            android:textColor="#e9edea"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

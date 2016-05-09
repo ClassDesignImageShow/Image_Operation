@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="#8f8989"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/id_textview_hue"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="色调"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp" />
+
+        <ivo_chuanzhi.test_scan_photo.view.VerticalSeekbar
+            android:layout_width="wrap_content"
+            android:max="255"
+            android:progress="127"
+            android:layout_height="305dp"
+            android:layout_gravity="center"
+            android:id="@+id/id_seekbar_hue"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/id_textview_hue"
+            android:layout_alignStart="@+id/id_textview_hue" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="400dp"
+        >
+
+        <ivo_chuanzhi.test_scan_photo.view.VerticalSeekbar
+            android:layout_width="wrap_content"
+            android:layout_height="305dp"
+            android:max="255"
+            android:progress="127"
+            android:layout_gravity="center"
+            android:id="@+id/id_seekbar_saturation"
+            android:layout_below="@+id/id_textview_saturation"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:id="@+id/id_textview_saturation"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="饱和度"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/id_seekbar_saturation"
+            android:layout_alignStart="@+id/id_seekbar_saturation" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="400dp"
+        >
+
+        <ivo_chuanzhi.test_scan_photo.view.VerticalSeekbar
+            android:layout_width="wrap_content"
+            android:layout_height="305dp"
+            android:max="255"
+            android:progress="127"
+            android:layout_gravity="center"
+            android:id="@+id/id_seekbar_lum"
+            android:layout_below="@+id/id_textview_lum"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:id="@+id/id_textview_lum"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="亮度"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/id_seekbar_lum"
+            android:layout_alignStart="@+id/id_seekbar_lum" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

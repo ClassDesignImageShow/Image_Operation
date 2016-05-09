@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/id_show_image_relativeLayout"
+    >
+
+<android.support.v4.view.ViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/id_page_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/id_show_text"
+        android:layout_width="wrap_content"
+        android:layout_height="0.1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+<!--
+    <ivo_chuanzhi.test_scan_photo.view.ZoomImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_ZoomImageView"
+        android:scaleType="matrix"
+        android:src="@mipmap/ic_launcher"
+        android:background="#000000"
+        />
+-->
+
+
+</RelativeLayout>
